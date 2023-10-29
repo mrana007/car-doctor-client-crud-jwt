@@ -38,7 +38,7 @@ const Bookings = () => {
         });
     }
   };
-
+  
   const handleBookingConfirm = id => {
     fetch(`http://localhost:5000/bookings/${id}`, {
       method: "PATCH",
